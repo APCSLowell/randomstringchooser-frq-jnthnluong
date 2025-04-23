@@ -5,7 +5,7 @@ public class RandomStringChooser
   private String[] wordArray;
   private ArrayList<String> usedWords;
 
-  public randomStringChooser(String[] a){
+  public RandomStringChooser(String[] a){
     wordArray = a;
     usedWords = new ArrayList<String>();
   }
