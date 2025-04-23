@@ -12,7 +12,7 @@ public class RandomStringChooser
   public String getNext(){
     if(usedWords.size() >= wordArray.length) return "NONE";
     String temp = wordArray[(int)(Math.random()*wordArray.length)];
-    while(usedWords.contains(temp){
+    while(usedWords.contains(temp)){
       temp = wordArray[(int)(Math.random()*wordArray.length)];
       
     }
